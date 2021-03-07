@@ -51,7 +51,15 @@ header ul {
   display: flex;
   justify-content: space-between;
 }
-
+.introduction-left img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.introduction-right {
+  padding-left: 20px;
+  box-sizing: border-box; 
+}
 /* 作品 */
 .works {
   background: yellow;
