@@ -1,0 +1,84 @@
+
+/* 共通設定 */
+.common {
+  margin: 0 auto 70px;
+  width: 1200px;
+}
+body {
+  margin: 0 ;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+/* ヘッダー */
+header {
+  background: blue;
+  /* height: 80px; */
+  margin: 0 auto;
+  padding: 0;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 80px;
+}
+header h1 {
+  margin: 0;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0;
+}
+/* トップ写真 */
+.top-photo {
+  background: skyblue;
+  height: 500px;
+  background-image: url(../images/top-image.jpg) ;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+/* 自己紹介 */
+.intro {
+  width: 45%;
+  background: purple;
+}
+.introduction {
+  background: green;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 作品 */
+.works {
+  background: yellow;
+  height: 300px;
+  
+}
+/* スキル */
+.skills {
+  background: pink;
+  height: 300px;
+  
+}
+/* 経歴 */
+.my-history {
+  background: red;
+  height: 500px;
+  
+}
+/* 問い合わせ */
+.contact {
+  background: orange;
+  height: 300px;
+  
+}
+/* フッター */
+footer {
+  background: gray;
+  height: 80px;
+
+}
