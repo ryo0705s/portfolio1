@@ -1,9 +1,5 @@
 
 /* 共通設定 */
-.common {
-  margin: 0 auto 70px;
-  width: 1200px;
-}
 body {
   margin: 0 ;
   padding: 0;
@@ -21,6 +17,22 @@ tr {
   /* display: flex; */
   /* justify-content: space-between; */
 }
+img {
+  width: 100%;
+}
+h3 {
+  text-align: right;
+}
+.common {
+  margin: 0 auto 70px;
+  width: 1200px;
+}
+.contents-title {
+  background: blue;
+  font-size: 25px;
+  text-align: center;
+}
+
 /* ヘッダー */
 header {
   background: blue;
@@ -41,6 +53,7 @@ header ul {
   width: 500px;
   margin: 0;
 }
+
 /* トップ写真 */
 .top-photo {
   background: skyblue;
@@ -50,6 +63,7 @@ header ul {
   text-align: center;
   color: white;
 }
+
 /* 自己紹介 */
 .intro {
   width: 45%;
@@ -62,7 +76,6 @@ header ul {
   justify-content: space-between;
 }
 .introduction-left img{
-  width: 100%;
   border-radius: 50px;
   vertical-align: middle;
 }
@@ -70,6 +83,7 @@ header ul {
   padding-left: 20px;
   box-sizing: border-box; 
 }
+
 /* スキル */
 .skills {
   background: pink;
@@ -77,37 +91,43 @@ header ul {
   text-align: center;
   
 }
-.skill-title {
-  background: blue;
-  font-size: 25px;
-}
 .skill-list {
   background: green;
   border: 1px solid gray;
 }
+
 /* 作品 */
-.works {
-  background: yellow;
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
-}
 .work {
 width: 30%;
 background: blue;
 }
+.work ul {
+  margin: 0;
+  padding: 0;
+}
+.works {
+  background: yellow;
+  height: 100%;
+}
+.work-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* 経歴 */
 .my-history {
   background: red;
   height: 500px;
   
 }
+
 /* 問い合わせ */
 .contact {
   background: orange;
   height: 300px;
   
 }
+
 /* フッター */
 footer {
   background: gray;
